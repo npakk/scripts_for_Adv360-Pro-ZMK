@@ -4,17 +4,11 @@
 
 - combos.keymap
 
-2. config/adv360.keymapを以下の様に変更
+2. config/adv360.keymapを変更
 
-```
-/* 変更前 */
+```diff
 / {
-        behaviors {
-          #include "macros.dtsi"
-
-/* 変更後 */
-/ {
-    #include "combos.keymap"
++   #include "combos.keymap"
 
     behaviors {
       #include "macros.dtsi"
