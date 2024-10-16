@@ -11,5 +11,5 @@
     behaviors {
       #include "macros.dtsi"
       #include "version.dtsi"
-+     #include "behaviors.keymap"
++     #include "extra_morphs.dtsi"
 ```
