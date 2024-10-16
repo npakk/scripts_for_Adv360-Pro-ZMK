@@ -1,0 +1,6 @@
+gresc: ime_off {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <59>;
+    bindings = <&kp LANG1>, <&kp LANG2>;
+    mods = <(MOD_LSFT)>;
+};
