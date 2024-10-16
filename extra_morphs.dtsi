@@ -1,0 +1,7 @@
+
+lang12: lang1_lang2 {
+  compatible = "zmk,behavior-mod-morph";
+  #binding-cells = <0>;
+  bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
+  mods = <(MOD_LSFT)>;
+};

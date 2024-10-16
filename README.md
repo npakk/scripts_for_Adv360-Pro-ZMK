@@ -2,7 +2,7 @@
 
 1. 以下のファイルをconfig/配下に追加
 
-- behaviors.keymap
+- extra_morphs.dtsi
 
 2. config/adv360.keymapを変更
 
